@@ -20,7 +20,7 @@ pipeline {
         sh "poetry run pytest"
       }
     }
-
+/*
     stage("build") {
       agent { node {label 'master'}}
       environment {
@@ -41,6 +41,8 @@ pipeline {
         sh "docker image rm ${DOCKER_IMAGE}:latest"
       }
     }
+  */
+  
   }
 
   post {
