@@ -37,11 +37,6 @@ pipeline {
         }
 
         //clean to save disk
-<<<<<<< HEAD
-        
-=======
-        //Test
->>>>>>> 284e1d9d487c8421728eaadea03f8948a3d4712d
         sh "docker image rm ${DOCKER_IMAGE}:${DOCKER_TAG}"
         sh "docker image rm ${DOCKER_IMAGE}:latest"
         echo "Tesst"
