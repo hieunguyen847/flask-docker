@@ -42,6 +42,7 @@ pipeline {
         echo "Test"
         echo "How it works" 
         echo "Test Forwading"
+        echo "Test pull request builder"
       }
     }
   
