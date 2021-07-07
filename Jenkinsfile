@@ -39,6 +39,9 @@ pipeline {
         //clean to save disk
         sh "docker image rm ${DOCKER_IMAGE}:${DOCKER_TAG}"
         sh "docker image rm ${DOCKER_IMAGE}:latest"
+        echo "Test"
+        echo "How it works" 
+        echo "Test Forwading"
       }
     }
   
