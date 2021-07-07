@@ -42,6 +42,9 @@ pipeline {
         echo "Test"
         echo "How it works" 
         echo "How it works. The develop branch is pull request builder"
+        echo "Test Forwading"
+        echo "Test pull request builder"
+
       }
     }
   
