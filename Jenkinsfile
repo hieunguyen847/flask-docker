@@ -41,9 +41,11 @@ pipeline {
         sh "docker image rm ${DOCKER_IMAGE}:latest"
         echo "Test"
         echo "How it works" 
+        echo "How it works. The develop branch is pull request builder"
         echo "Test Forwading"
         echo "Test pull request builder"
         echo "Test pull request builder on develop branch"
+        echo "Test pull request builder on hieu branch"
       }
     }
   
